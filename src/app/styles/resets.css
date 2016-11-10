@@ -1,0 +1,52 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, #root-entry {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  flex-flow: row nowrap;
+  background-color:#f3f3f3;
+
+
+}
+
+#root-entry > div {
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items:center;
+  background-color:#f3f3f3;
+}
+
+.alex-port-app{
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items:center;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #root-entry > div {
+    flex-flow: row wrap;
+
+  }
+  .alex-port-app{
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+
+}
