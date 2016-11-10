@@ -8,14 +8,14 @@
 
 
 }
-.myemail {
+.mybutton {
 
   font-size: 5em;
   color: var(--medGrey);
   font-weight:bold;
 }
 
-.myemail a {
+.mybutton a {
   text-decoration: none;
   color: var(--trendingBlue);
 }
@@ -29,7 +29,7 @@
     float:left;
   }
 
-  .myemail {
+  .mybutton {
     font-size: 2em;
 
 

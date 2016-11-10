@@ -10,7 +10,7 @@ const webpackConfig = {
   context: path.resolve(__dirname, 'src'),
 
   devServer: {
-    https: true,
+    https: false,
     host: '0.0.0.0',
     port: '8000',
 
