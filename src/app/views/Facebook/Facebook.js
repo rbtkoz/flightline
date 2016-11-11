@@ -15,11 +15,15 @@ class Fb extends Component {
   render() {
     return (
       <div className={fbCSS.container}>
-        <MessengerPlugin className ={fbCSS.mybutton}
-          appId="1803040179951244"
-          pageId="1355932354430385"
-
-        />
+        <div className={fbCSS.sub}>Find me on Facebook Messenger.</div>
+        <div className ={fbCSS.mybutton}>
+          <MessengerPlugin
+            type="message-us"
+            appId="1803040179951244"
+            pageId="1355932354430385"
+            size="xlarge"
+          />
+          </div>
         </div>
     );
   }
