@@ -30,6 +30,11 @@ html, body, #root-entry {
 
 }
 
+.image{
+  height:400px;
+  width:auto;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -38,9 +43,14 @@ ul {
 
 @media only screen and (max-width: 768px) {
 
+  .image{
+    height:300px;
+    width:auto;
+    margin:0 auto;
+  }
+
   #root-entry > div {
     flex-flow: row wrap;
-
   }
   .flugchen-app{
     height: 100%;

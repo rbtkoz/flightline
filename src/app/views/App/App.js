@@ -6,9 +6,12 @@ import Line from '../Line/Line';
 import '../../styles/normalizer.css';
 import resets from '../../styles/resets.css';
 
+import flightline from '../../assets/flighline.png';
+
 const App = () => {
   return (
       <div className={resets['flugchen-app']}>
+        <img className={resets['image']} src={flightline}></img>
         <Name />
         <Line />
         <Fb />
