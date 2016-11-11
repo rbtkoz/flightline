@@ -47,7 +47,11 @@ ul {
     height:300px;
     width:auto;
     margin:0 auto;
-  }
+    margin-top: -86px;
+    margin-bottom: -50px;
+
+
+}
 
   #root-entry > div {
     flex-flow: row wrap;
